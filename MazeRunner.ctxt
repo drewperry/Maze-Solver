@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=flowers
+comment0.target=MazeRunner(int)
+comment0.text=\r\n\ Create\ a\ new\ MazeRunner\ facing\ east\ with\ int\ flowers.\r\n\ @param\ flowers\ \ \ \ \ \ \ \ \ number\ of\ flowers\r\n\r\n
+comment1.params=
+comment1.target=MazeRunner()
+comment1.text=\r\n\ Create\ a\ new\ MazeRunner\ with\ 15\ flowers\r\n\r\n\r\n
+comment2.params=
+comment2.target=void\ myProgram()
+comment2.text=\r\n\ Has\ the\ MazeRunner\ loop\ through\ the\ maze\r\n\r\n
+comment3.params=
+comment3.target=void\ goBack()
+comment3.text=\r\n\ If\ at\ deadend,\ turns\ around\r\n\ @precondition\ Jeroo\ cannot\ move\ forward\r\n\ @postcondition\ Jeroo\ is\ facing\ the\ opposite\ direction\r\n
+comment4.params=
+comment4.target=void\ goForward()
+comment4.text=\r\n\ while\ it's\ clear\ ahead,\ Jeroo\ hops\r\n\ @precondition\ Jeroo\ has\ water\ on\ right\ and\ is\ clear\ ahead\r\n\ @postcondition\ Jeroo\ hops\ straight\r\n
+comment5.params=
+comment5.target=void\ pickFlowers()
+comment5.text=\r\n\ while\ flower\ ahead,\ Jeroo\ hops\ and\ picks\r\n\ @precondition\ Jeroo\ has\ flower\ ahead\r\n\ @postcondition\ Jeroo\ picks\ flower\r\n
+comment6.params=
+comment6.target=void\ disableNets()
+comment6.text=\r\n\ while\ net\ ahead,\ Jeroo\ tosses\ and\ hops\r\n\ @precondition\ Jeroo\ has\ net\ ahead\r\n\ @postcondition\ Jeroo\ has\ no\ net\ ahead\r\n
+comment7.params=
+comment7.target=void\ takeTurn()
+comment7.text=\r\n\ Jeroo\ turns\ right\ if\ the\ right\ is\ clear\r\n\ @precondition\ The\ right\ wall\ has\ a\ wing\r\n\ @postcondition\ Jeroo\ turns\ down\ right\ wing\r\n
+numComments=8
